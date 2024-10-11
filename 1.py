@@ -7,10 +7,7 @@ def find_max(a, b):
 
 def find_max_of_three(x, y, z):
     c = find_max(x, y)
-    if z >= c:
-        return z
-
-    return c
+    return find_max(z, c)
 
 
 print(find_max(1, 3))
