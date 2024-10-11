@@ -1,0 +1,21 @@
+Exercise 1: Write a function that finds the maximum of two numbers and then reuse this function to find the maximum of three numbers.
+Instructions:
+Write a function find_max(a, b) that takes two arguments, a and b, and returns the larger of the two.
+Use this function to write another function find_max_of_three(x, y, z) that takes three numbers and returns the largest, without duplicating the logic for comparing two numbers.
+Make sure your code is efficient and doesn’t compare the same numbers multiple times.
+
+Exercise 2: Write a program that calculates the area of various shapes (rectangle, circle, and triangle) without duplicating code for the area calculation.
+Instructions:
+Write a function calculate_rectangle_area(length, width) that takes the length and width of a rectangle as arguments and returns its area.
+Write a function calculate_circle_area(radius) that takes the radius of a circle as an argument and returns its area.
+Write a function calculate_triangle_area(base, height) that takes the base and height of a triangle as arguments and returns its area.
+Create a main function calculate_area(shape, *dimensions) that takes the shape type (as a string) and dimensions (as variable arguments) and calls the appropriate area function.
+The main function should avoid duplicating the area calculation logic by using the previously defined functions.
+
+Exercise 3: Write a program that manages an inventory system using functions that have side effects.
+Instructions:
+Create an empty list inventory to store the items.
+Write a function add_item(item) that takes an item (string) as an argument and adds it to the inventory list. This function should have a side effect, as it modifies the inventory list.
+Write a function remove_item(item) that takes an item (string) as an argument and removes it from the inventory list if it exists. This function should also have a side effect.
+Write a function show_inventory() that returns the current inventory list. This function should not have side effects; it only reads from the inventory.
+Write a main block to demonstrate the functionality of the inventory management system by adding and removing items and displaying the inventory.
